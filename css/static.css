@@ -1,0 +1,140 @@
+body>.watch-container {
+			height: auto;
+			min-height: 100%;
+		}
+		.watch-container {
+			margin: 0 auto;
+		}
+		div {
+			display: block;
+		}
+		
+		.video-container {
+			width: 640px;
+			height: 360px;
+			background: #424949; /* Blackish */
+			margin-right: 5px;
+			margin-bottom: 5px;
+			padding: 0;
+		}
+		.video-notready {
+			padding-top: 100px;
+		}
+		.video-notready .progress {
+			width: 80%;
+			margin: 0 auto;
+		}
+		.title-container, .description-container, .share-container, .comment-container {
+			width: 640px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			background: #F8F9F9; /* White */
+			padding-bottom: 5px;
+		}
+		.left-panel {
+			float: left;
+		}
+		.side-bar {
+			min-height: 453px;
+			padding-left: 5px;
+			background: #F8F9F9;
+			width: 426px;
+			margin-left: 650px;
+		}
+		.side-bar-content {
+			padding-bottom: 10px;
+		}
+		.side-bar-content a, .side-bar-content a:link, .side-bar-content a:visited {
+			color: #17202A;
+			text-decoration: none;
+		}
+		.side-bar-content a:hover, .side-bar-content a:active {
+			color: #34495E; 
+			text-decoration: none;
+		}
+		.side-bar img {
+			float: left;
+		}
+		.side-bar-text {
+			padding: 5px;
+			margin-left: 181px;
+			width: 210px;
+			height: 94px;
+		}
+		.comment-content {
+			margin-top: 20px;
+			padding-bottom: 5px;
+		}
+		.my-footer {
+			width: 100%;
+			margin: 0 auto;
+			padding: 15px 0;
+			background: #F8F9F9;
+			clear: both;
+			margin-top: 190px;
+		}
+		
+		
+		
+		.clearfix {
+			overflow: auto;
+		}
+		.padding {
+			padding: 15px;
+		}
+		
+		
+		/* Responsive added + 30px on width due to container bootsrap*/
+		/* 720p */
+		@media screen and (min-height: 980px) and (min-width: 1720px) {
+			.watch-container {
+				width: 1720px;
+			}
+			.video-container {
+				width: 1280px;
+				height: 720px;
+			}
+			.title-container, .description-container, .share-container, .comment-container {
+				width: 1280px;
+			}
+		}
+		
+		/* 480P */
+		@media screen and (min-height: 630px) and (min-width: 1294px) { 
+			.watch-container {
+				width: 1294px;
+			}
+			.video-container {
+				width: 854px;
+				height: 480px;
+			}
+			.title-container, .description-container, .share-container, .comment-container {
+				width: 854px;
+			}
+			.side-bar {
+				min-height: 640px;
+				margin-left: 864px;
+			}
+		}
+		
+		/* 240P */
+		@media screen and (max-width: 656px) {
+			.watch-container {
+				width: 426px;
+			}
+			.video-container {
+				width: 426px;
+				height: 240px;
+			}
+			.title-container, .description-container, .share-container {
+				width: 426px;
+			}
+			.comment-container {
+				display: none; /* Hide comment section */
+			}
+			.side-bar {
+				clear: both;
+				margin: 0 auto;
+				top: 0;
+			}
+		}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Audio>
+
+  <Music>
+  	<id>001</id>
+    <title>Starving ft. Zedd - Hailee Steinfeld, Grey</title>
+    <description>
+    <![CDATA[Starving ft. Zedd (Official Video)<br />
+	Listen on Spotify: http://republicrec.co/STARVINGSP <br />
+	Listen on Apple Music: http://republicrec.co/STARVINGAM<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	Download Here: http://republicrec.co/STARVING]]>
+	</description>
+	<image>../media/audio/img/001.jpg</image>
+    <file>../media/audio/001.mp3</file>
+  </Music>
+  
+    <Music>
+    <id>002</id>
+    <title>Shout out to my ex - Little Mix</title>
+    <description>
+    <![CDATA[As featured on Glory Days, listen on Spotify http://smarturl.it/LMGloryDaysStfy<br />
+	<br />
+	Click to buy the album via iTunes: http://smarturl.it/GloryDaysDXiT<br />
+	Google Play: http://smarturl.it/GloryDaysDXGP<br />
+	Amazon: http://smarturl.it/GloryDaysDXAmzn<br />
+	<br />
+	Stream more music from Little Mix here: http://smarturl.it/LMixSpotify]]>
+	</description>
+	<image>../media/audio/img/default.jpg</image>
+    <file>../media/audio/002.mp3</file>
+    </Music>
+    
+    <Music>
+    <id>003</id>
+    <title>Starboy ft. Daft Punk - The Weeknd</title>
+    <description>
+    <![CDATA[Connect with The Weeknd:<br />
+	http://www.facebook.com/theweeknd<br />
+	http://instagram.com/theweeknd<br />
+	https://soundcloud.com/theweeknd<br />
+	https://twitter.com/TheWeeknd<br />
+	https://www.theweeknd.com<br />
+	<br />
+	Directed by Grant Singer<br />
+	Produced by Julien LeMaitre & Nina Soriano<br />
+	For Anonymous Content ]]>
+	</description>
+	<image>../media/audio/img/003.jpg</image>
+    <file>../media/audio/003.mp3</file>
+  </Music>
+
+
+</Audio>
